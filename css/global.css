@@ -47,5 +47,6 @@ h1 {
 
 body {
   font-family: "Montserrat";
-  font-weight: var(--text-weight);
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
 }
