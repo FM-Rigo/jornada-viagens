@@ -84,10 +84,6 @@
 }
 
 .offer-card {
-  margin: 24px 16px;
-  width: 280px;
-  height: 240px;
-  align-content: center;
 }
 
 @media screen and (min-width: 1024px) {
