@@ -50,6 +50,7 @@
   border-radius: 16px;
   padding-top: 24px;
   text-align: center;
+  margin: 24px;
 }
 
 .card header p {
@@ -83,8 +84,6 @@
   margin-bottom: 24px;
 }
 
-.offer-card {
-}
 
 @media screen and (min-width: 1024px) {
   .card {
