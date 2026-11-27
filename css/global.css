@@ -58,9 +58,13 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px)  {
-    .button:hover{
-      background-color: var(--primary-color);
-      transition: ease-in, 0.3s;
-    }
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+    transition: ease-in, 0.3s;
+  }
+}
+
+#jpnCard {
+  background-image: url(../img/bg-japao.jpg);
 }
