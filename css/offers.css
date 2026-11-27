@@ -33,17 +33,12 @@
   padding: 0 100px;
 }
 
-@media screen and (min-width: 768px) {
-  .section-title h2 {
-    font-size: 32px;
-  }
-}
-
 .card header {
   display: block;
   background-color: transparent;
-  padding: 24px 16px;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card {
@@ -53,6 +48,7 @@
   width: 312px;
   height: 288px;
   border-radius: 16px;
+  padding: 24px 16px;
   text-align: center;
 }
 
@@ -71,4 +67,30 @@
   font-size: 32px;
   display: inline-block;
   margin-top: 24px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card header h3 {
+    font-size: 48px;
+  }
+  .card header span {
+    font-size: 40px;
+  }
 }
