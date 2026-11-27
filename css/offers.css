@@ -48,7 +48,7 @@
   width: 312px;
   height: 288px;
   border-radius: 16px;
-  padding: 24px 16px;
+  padding-top: 24px;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@
 .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
-  margin-top: 8px;
+  margin: 8px 0 0;
 }
 
 .card header span {
@@ -80,12 +80,21 @@
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.offer-card {
+  margin: 24px 16px;
+  width: 280px;
+  height: 240px;
+  align-content: center;
 }
 
 @media screen and (min-width: 1024px) {
   .card {
     width: 588px;
     height: 308px;
+    transition: ease-in-out, 0.5s;
   }
   .card header h3 {
     font-size: 48px;
