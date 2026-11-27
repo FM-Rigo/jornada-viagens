@@ -1,0 +1,101 @@
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.categories {
+  margin-top: 88px;
+  padding: 0 100px;
+}
+
+.destines {
+  margin-top: 88px;
+  padding: 0 100px;
+}
+
+.payment {
+  margin-top: 88px;
+  padding: 0 100px;
+}
+
+.reviews {
+  margin-top: 88px;
+  padding: 0 100px;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.card {
+  color: var(--text-secondary-color);
+  box-sizing: border-box;
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  border-radius: 16px;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
+}
+
+.card header span {
+  font-size: 32px;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.offer-card {
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+    transition: ease-in-out, 0.5s;
+  }
+  .card header h3 {
+    font-size: 48px;
+  }
+  .card header span {
+    font-size: 40px;
+  }
+}
