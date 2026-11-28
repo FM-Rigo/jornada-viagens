@@ -65,6 +65,25 @@ body {
   }
 }
 
+/* CARD IMAGES */
+
 #jpnCard {
   background-image: url(../img/bg-japao.jpg);
+  background-size: cover;
+}
+
+#sanAnCard{
+  background-image: url(../img/bg-san-andreas.jpg);
+  background-size: cover;
+  background-color: rgba(#000, 50%);
+}
+
+#paraibaCard{
+  background-image: url(../img/bg-paraiba.jpg);
+  background-size: cover;
+}
+
+#manausCard{
+  background-image: url(../img/bg-manaus.jpg);
+  background-size: cover;
 }
